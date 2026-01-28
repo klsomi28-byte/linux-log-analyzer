@@ -8,6 +8,13 @@ A simple Bash script to analyze system log files.
 - Count warning messages
 - Check failed login attempts
 
+- ## Project Structure
+log-analyzer/
+├── log_analyzer.sh
+├── logs/
+│ └── analysis.log
+└── README.md
+
 ## Log File
 - Default log file: `/var/log/syslog`
 
